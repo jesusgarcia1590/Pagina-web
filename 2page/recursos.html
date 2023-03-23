@@ -1,0 +1,1607 @@
+<!DOCTYPE html>
+<html lang="es-MX" class="no-js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+    <title>Laboratorio de Matemáticas</title>
+
+    <!--Reiniciando las configuraciones de estilo-->
+    <link rel="stylesheet" href="assets/css/reset.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/icon">
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <!-- Bootstrap v4.0.0 -->
+    <link href="assets/css/vendor/bootstrap/bootstrap.css" rel="stylesheet">
+    <!-- Animate Plus -->
+    <link href="assets/css/vendor/animate-plus/animate.css" rel="stylesheet">
+    <!-- Font Awesome 4.7.0 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <!-- Custom Styles -->
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <link href="assets/css/estilos-personales.css" rel="stylesheet">
+    <link href="assets/css/style1.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/foot.css">
+    <link rel="stylesheet" href="assets/css/styleB.css">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/lab.css" >
+    <link rel="stylesheet" href="assets/css/estudiantes.css" >
+
+
+
+    
+
+</head>
+
+<body>
+
+    <!--========== HEADER ============-->
+    <header >
+        <div class="cabecera">
+            <img src="./assets/img/circUTM.png" alt="Logo de la UTM" class="cabecera_img">
+            <h2 class="cabecera_txt">Universidad Tecnológica de la Mixteca</h2>
+        </div>
+    </header>
+    <!--========== END HEADER ============-->
+
+
+    <!--========== HOME SECTION ============-->
+    <section class="section home" id="home" >
+        <div class="container-fluid">
+            <!--Aquí es donde se edita el boton-->
+            <nav class="navbar navbar-expand-lg navbar-light" id="header-menu">
+                <button class="navbar-toggler" name="navbarButton" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto" id="navbar-menu">
+                        <li class="nav-item" >
+                            <!-- Aqui se crean los vinculos a la derecha-->
+                            <a class="nav-link" href="index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            
+                            <a class="nav-link" href="recursos.html">RECURSOS</a>
+                        </li>
+                        <li class="nav-item">
+                            
+                            <a class="nav-link" href="prestamo.html">PRESTAMO</a>
+                        </li>
+                        <li class="nav-item">
+                           
+                            <a class="nav-link" href="galeria.html">GALERÍA</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="home-content d-flex">
+                <div class="welcome-msg animate-plus" data-animations="fadeInLeft">
+                    <h2 class="ft-bold">Licenciatura en Matemáticas Aplicadas</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--========== END HOME SECTION ============-->
+
+    <!--====Efecto del cuerpo====-->
+    <div class="about-us-statistics text-center p-3" style="display:none">
+    </div>
+
+    <div class="section about-us" id="about-us" data-scroll-index="1">
+
+        <div class="container py-3">
+            <div class=" row align-items-center justify-content-center">
+                <div class=" offset-sm-1 col-md-9 align-self-down text-left regular-padding">
+                    <br /> 
+                    <h1 id="enc-rec"><strong>¡Bienvenido al portal del laboratorio de matemáticas! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></h1>
+                    <p class="fecha; text-center" id="fecha"></p> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Comienza el cuerpo de la página-->
+    <div class="libros">
+            <p>
+                Dentro del laboratorio de matemàticas se cuenta con el siguiente acervo bibliogràfico para 
+                su consulta y prèstamo hacia los alumnos que asì lo requieran, tal material fue donado por los profesores del 
+                instituto de matemàticas y se les pide cuidarlos en lo posible.  Actualmente se tienen en existencia 383 
+                libros de matemáticas y 51 libros pertenecientes a distintos géneros literarios. A continuación se muestra una lista detallada 
+                de los libros en f&iacute;sico que se tienen  y su disposición actual. En caso de requerir alguno para prèstamo a 
+                domicilio, favor de pasar con el tècnico o con el encargado del laboratorio. 
+            </p>
+
+
+    </div>
+
+
+    <h2><center> <strong> Libros de matemáticas </strong>  </center> </h2>
+
+    <!--aquí se crea la tabla de libros-->
+    <div class="lib1">
+        <table class="tabla_lib">
+
+            <tr>
+                <th>Autor</th><th>T&iacute;tulo</th><th>Disponible</th>
+            </tr>
+            <tr>
+                <td class="td_left">Lawrence, J. D.</td>
+                <td class="td_middle">A catalog of special plane curves</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Giordano, F. R., Weir, M. D.</td>
+                <td class="td_middle">A first course in mathematical modeling</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Giordano, F. R., Weir, M. D.</td>
+                <td class="td_middle">A first course in mathematical modeling</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Weinberger, H. F. </td>
+                <td class="td_middle">A first course in partial differential equations</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Protter, M. H., Morney, C. B.</td>
+                <td class="td_middle">A first course in real Analysis</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Hernández,E., Weiss, G.</td>
+                <td class="td_middle">A first course on wavelets</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Strichartz, R.</td>
+                <td class="td_left">A guide to distribution theory and fourier transforms</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">H. K. Nickerson, D. C. Spencer, N. E. Steenrod</td>
+                <td class="td_middle">Advanced calculus</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">H. K. Nickerson, D. C. Spencer, N. E. Steenrod</td>
+                <td class="td_middle">Advanced calculus</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Mojica, A. B., Mejía, H. R., & Orta, C. R. </td>
+                <td class="td_middle">Álgebra superior. Curso completo</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Gómez Laveaga, C. </td>
+                <td class="td_middle">Álgebra superior. Curso completo</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Chrystal, G., M.A.</td>
+                <td class="td_middle">Algebra, an elementary text-book (Part II)</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Lefschetz, S.</td>
+                <td class="td_middle">Algebraic geometry</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Bass, H. , Kingman, J. F. C. et al</td>
+                <td class="td_middle">Algebraic graph theory</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Gibbons, A. </td>
+                <td class="td_middle">Algorithmic graph theory</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Mazumdar, J.</td>
+                <td class="td_middle">An introduction to mathematical physiology and biology</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Mazumdar, J.</td>
+                <td class="td_middle">An introduction to mathematical physiology and biology</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Bao, D., Chern, S. & Shen, Z.</td>
+                <td class="td_middle">An introduction to Riemann-Finsler geometry</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Baldwin, G. & Crouch, R.</td>
+                <td class="td_middle">An intuitive development of the real number system</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Marsden, J. E. </td>
+                <td class="td_middle">Análisis básico de variable compleja</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Burden, R. L., Faires, J. D., & Iriarte Balderrama, R.</td>
+                <td class="td_middle">Análisis numérico</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Robles, J. A. G., Gómez, M. Á. O., González, J. M. C., & Godoy</td>
+                <td class="td_middle">Análisis numérico</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Garnett, J. B </td>
+                <td class="td_middle">Applications of Harmonic Measure</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Reklaistist, G. V. </td>
+                <td class="td_middle">Balances de Materia y energía </td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Peralta, L. E., & Magana, M. F. </td>
+                <td class="td_middle">Biología matemática: un enfoque desde los sistemas dinámicos</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Universidad Federal de Santa Catarina, Dpto. De Física</td>
+                <td class="td_middle">Caderno brasileiro de Ensino de Física-1 Vol. 1</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Universidad Federal de Santa Catarina, Dpto. De Física</td>
+                <td class="td_middle">Caderno brasileiro de Ensino de Física-1 Vol. 2</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Stewart, J.</td>
+                <td class="td_middle">Cálculo diferencial e integral</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left"> Becerril Fonseca, R.</td>
+                <td class="td_middle">Cálculo diferencial e integral en varias variables</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Reyes Victoria, J. G.</td>
+                <td class="td_middle">Cálculo diferencial para las ciencias naturales</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Reyes Victoria, J. G.</td>
+                <td class="td_middle">Cálculo diferencial para las ciencias naturales</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Angoa, J., et al.</td>
+                <td class="td_middle">Cálculo integral</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Páez Cárdenas, J.</td>
+                <td class="td_middle">Cálculo integral de varias variables</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Reyes Victoria, J. G.</td>
+                <td class="td_middle">Cálculo integral para las ciencias naturales</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Zill, D. G., & Cullen, M. R. </td>
+                <td class="td_middle">Cálculo vectorial, análisis de Fourier y análisis complejo</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Kirkwood, J. R. </td>
+                <td class="td_middle">Calculus projects for maple</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Marsden, J. E., Weinstein, A. </td>
+                <td class="td_middle">Calculus Unlimited</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Bittinger, M. L. </td>
+                <td class="td_middle">Calculus: A modeling approach</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Blank, B. E., Krantz, S. G. </td>
+                <td class="td_middle">Calculus: Single variable</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Vaglom, A. M., Yaglom, I. M. </td>
+                <td class="td_middle">Challenging mathematical problems with elementary solutions Vol. 1</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Vaglom, A. M., Yaglom, I. M. </td>
+                <td class="td_middle">Challenging mathematical problems with elementary solutions Vol. 2</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Baues, H. J.  </td>
+                <td class="td_middle">Combinatorial foundation of homology and homotopy</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Amor Montaño, J. A. </td>
+                <td class="td_middle">Compacidad en la lógica de primer orden y su relación con el teorema de completitud</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Narasimhan, R. </td>
+                <td class="td_middle">Complex analysis in one variable</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Carbery, A., et al </td>
+                <td class="td_middle">Complex and Harmonic Analysis</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Koonin, S. E., Meredith, D. C. </td>
+                <td class="td_middle">Computational physics: Fortran version</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Loeza Chin, L. </td>
+                <td class="td_middle">Conjuntos de H-puntos fijos (tesis)</td>
+                <td class="td_left">Si</td>
+            </tr>
+        
+            <tr>
+                <td class="td_left">Montgomery, D. C. </td>
+                <td class="td_middle">Control estadístico de la calidad</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Galbaum, B R., Olmsted, J. M. H. </td>
+                <td class="td_middle">Counterexamples in analysis</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Lascurain Orive, A. </td>
+                <td class="td_middle">Curso básico de variable compleja</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Voss, H. J. </td>
+                <td class="td_middle">Cycles and bridges in graphs</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Voss, H. J. </td>
+                <td class="td_middle">Cycles and bridges in graphs</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Hayes, C. A., Pauc, C. Y. </td>
+                <td class="td_middle">Derivation and martingales</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Aitken, A. C. </td>
+                <td class="td_middle">Derminants and matrices</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Vargas Mendoza, C. F. </td>
+                <td class="td_middle">Determinación del tamaño efectivo en una población de Echeveria gibbiflora en el  pedregal de San Ángel, C. U., México.</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">de Gortari, E. </td>
+                <td class="td_left">Dialéctica de la física 1</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">de Gortari, E. </td>
+                <td class="td_middle">Dialéctica de la física 2</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">de Gortari, E. </td>
+                <td class="td_middle">Dialéctica de la física 3</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">de Gortari, E. </td>
+                <td class="td_middle">Dialéctica de la física 4</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">de Gortari, E. </td>
+                <td class="td_middle">Dialéctica de la física 5</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Jensen, C. H. </td>
+                <td class="td_middle">Dibujo y diseño de ingeniería</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Ross, S. L. </td>
+                <td class="td_middle">Differential equations </td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Edwards, G. H., Penney, D. E.  </td>
+                <td class="td_middle">Differential equations and boundary value problems: Computing and Modeling</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Simons, G. F., Krantz, S. G. </td>
+                <td class="td_middle">Differential equations theory, technique and practice</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Cahen, M., Fato, M. (eds) </td>
+                <td class="td_middle">Differential geometry and relativity</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Beltrami, E. J., Wohlers, M. R. </td>
+                <td class="td_middle">Distributions and the boundary values of analytic funtions</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">ZRobinson, C.  </td>
+                <td class="td_middle">Dynamical systems, stability, symbolic dynamics, and chaos</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Carmona Jover, I. </td>
+                <td class="td_middle">Ecuaciones diferenciales</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Zill, D. C., Cullen, M. R. </td>
+                <td class="td_middle">Ecuaciones diferenciales con problemas con valores en la frontera  </td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Schaefer, C. </td>
+                <td class="td_middle">Einfuhrung in die theoretische physik</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Ejercicios de física </td>
+                <td class="td_middle">Mckittrick, B.</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Menchaca Rocha, A. </td>
+                <td class="td_middle">El discreto encanto de las partículas elementales</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Tagüeña Parga, C., et al. </td>
+                <td class="td_middle">Elementos de cálculo con el uso de las calculadoras</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Vinogradov, I. M. </td>
+                <td class="td_middle">Elements of number theory</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Sprecher, D. A. </td>
+                <td class="td_middle">Elements of real analysis</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Gilbarg, D., Trudinger, N.S. </td>
+                <td class="td_middle">Elliptic partial differential equations of second order</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Illanes Mejía, A., Perez Chavela, E., Páez Cárdenas, J. </td>
+                <td class="td_middle">Espacios bitopológicos, tomo I</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Daniels, F., et al. </td>
+                <td class="td_middle">Experimental physical chemistry</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Baird, D. C. </td>
+                <td class="td_middle">Experimentation: An Introduction to measurement theory and experiment design</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Baird, D. C. </td>
+                <td class="td_middle">Experimentation: An Introduction to measurement theory and experiment design</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Baird, D. C. </td>
+                <td class="td_middle">Experimentation: An Introduction to measurement theory and experiment design</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Baird, D. C. </td>
+                <td class="td_middle">Experimentation: An Introduction to measurement theory and experiment design</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Dodson, C. T. J., González, E. A. </td>
+                <td class="td_middle">Experiments in mathematics using maple</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Carmona, G. </td>
+                <td class="td_middle">Fenómenos críticos y el grupo de renormalización</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Delgado, J., et al. (eds) </td>
+                <td class="td_middle">First symposium on inverse problems and its applications</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Physical Science Study Comittee </td>
+                <td class="td_middle">Física III</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Rojo Asenjo, O. & Mclintosh, H. V. </td>
+                <td class="td_middle">Física cuántica</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Physical Science Study Comittee </td>
+                <td class="td_middle">Física IV</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Weil, A. </td>
+                <td class="td_middle">Foundations of algebraic geometry</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Landau, E. </td>
+                <td class="td_middle">Foundations of analysis</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Landau, E. </td>
+                <td class="td_middle">Foundations of analysis</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Edwards, R. E. </td>
+                <td class="td_middle">CFourier series: a modern introduction Vol.1</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Gut, A. G.</td>
+                <td class="td_middle">Fundamentos de las ciencias de materiales</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Hilbert, D. </td>
+                <td class="td_middle">Fundamentos de las matemáticas</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Vinogradov, I. M. </td>
+                <td class="td_middle">Fundamentos de las teorías de los números </td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Vinogradov, I. M. </td>
+                <td class="td_middle">Fundamentos de las teorías de los números </td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Vinogradov, I. M. </td>
+                <td class="td_middle">Fundamentos de las teorías de los números </td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Brezis, H. </td>
+                <td class="td_middle">Funtional analysis, sobolev spaces and partial differential equations</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Taylor, E. B. Watson, W. & Howe C. E. </td>
+                <td class="td_middle">General physics for the laboratory</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Shilov, G. E. </td>
+                <td class="td_middle">Generalized functions and partial differential equations</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Luhr, J. F. & Carmichael, I. </td>
+                <td class="td_middle">Geology of volcano of colima</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Abarello, E., Cornalba, M., Griffiths, P.A. & Harris, J.</td>
+                <td class="td_middle">Geometry of algebraic curves Vol. I</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">López de Medrano, S. </td>
+                <td class="td_middle">Gráficas</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Nelson, R., Wilson, R. J., (eds) </td>
+                <td class="td_middle">Graph colouring</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Diestel, R. </td>
+                <td class="td_middle">Graph decompositions: A Study in infinite graph theory</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Chartrand, G. & Lesniak, L. </td>
+                <td class="td_middle">Graphs & digraphs</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Sarmiento Galán, A. </td>
+                <td class="td_middle">Gravitación</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Farrington, B. </td>
+                <td class="td_middle">Greek Science</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Landav, E. </td>
+                <td class="td_middle">Grundlagen der analysis</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Bárcenas Torres, N. </td>
+                <td class="td_middle">Grupos de Homotopía equivariantes de Rhodes(tesis)</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Physical Science Study Comittee </td>
+                <td class="td_middle">Guía del laboratorio de física</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Abramowitz, M. & Slegun, I. A. (eds)</td>
+                <td class="td_middle">Handbook of mathematical functions</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Abramowitz, M. & Slegun, I. A. (eds)</td>
+                <td class="td_middle">Handbook of mathematical functions</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Abramowitz, M. & Slegun, I. A. (eds)</td>
+                <td class="td_middle">Handbook of mathematical functions</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Abramowitz, M. & Slegun, I. A. (eds)</td>
+                <td class="td_middle">Handbook of mathematical functions</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Abramowitz, M. & Slegun, I. A. (eds)</td>
+                <td class="td_middle">Handbook of mathematical functions</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">American Institute of physics </td>
+                <td class="td_middle">Handbook of resources for physics departments</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Nagy, B. S. & Foias, C. </td>
+                <td class="td_middle">Harmonic Analysis of operators on Hilbert space</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Durell, C. V. & Robson, A. </td>
+                <td class="td_middle">Hints for advance algebra</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Hu, S. T. </td>
+                <td class="td_middle">Homology theory a first course in algebraic topology</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Skiena, S. </td>
+                <td class="td_middle">Implementing discrete mathematics: Combinatorics and Graph Theory with Mathematica</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Skiena, S. </td>
+                <td class="td_middle">Implementing discrete mathematics: Combinatorics and Graph Theory with Mathematica</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Skiena, S. </td>
+                <td class="td_middle">Implementing discrete mathematics: Combinatorics and Graph Theory with Mathematica</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Suhadolc, A., Velkovrh & Vrabec, J. (eds) </td>
+                <td class="td_middle">Index of the AMS (MOS) Subject classification scheme </td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Nicas, A. J. </td>
+                <td class="td_middle">Induction theorems for groups of homotopy mainfold structures</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Mossino, J. </td>
+                <td class="td_middle">Inégalités isopérimétriques et applications en physique</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Garling, D. H. </td>
+                <td class="td_middle">Inequalities a journey into linear analysis</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Temam, R. </td>
+                <td class="td_middle">Infinite-dimensional dynamical system in mechanics and physics</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Orlov, P. </td>
+                <td class="td_middle">Ingeniería de diseño 1</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Orlov, P. </td>
+                <td class="td_middle">Ingeniería de diseño 2</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Davis, P. J. </td>
+                <td class="td_middle">Interpolation and approximation</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Davis, P. J. </td>
+                <td class="td_middle">Interpolation and approximation</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Rascon, O. </td>
+                <td class="td_middle">Introducción a la estadística descriptiva</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Cabrera y Felipe, J. </td>
+                <td class="td_middle">Introducción a la física teórica II: Electricidad y óptica</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Ramírez Galarza, A. I. & Seade Kuri, J.  </td>
+                <td class="td_middle">Introducción a la geometría avanzada</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Gómez Laveaga, C. </td>
+                <td class="td_middle">Introducción a la teoría intuitiva de conjuntos</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Rincón, L. </td>
+                <td class="td_middle">Introducción a los procesos estocásticos </td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Rincón, L. </td>
+                <td class="td_middle">Introducción a los procesos estocásticos </td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Rincón, L. </td>
+                <td class="td_middle">Introducción a los procesos estocásticos </td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Oda Noda, B.</td>
+                <td class="td_middle">Introducción al análisis gráfico de datos experimentales</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Nevalina, R. & Paatero, V.  </td>
+                <td class="td_middle">Introduction to complex analysis</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Nehari, Z. </td>
+                <td class="td_middle">Introduction to complex analysis revised edition</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Lang, S. </td>
+                <td class="td_middle">Introduction to algebraic geometry</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Cooper, J. M. </td>
+                <td class="td_middle">Introduction to partial differential equations with Matlab</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Lindgren, B. W. & McElrath, G. W. </td>
+                <td class="td_middle">Introduction to probability and statistics</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Sagan, H. </td>
+                <td class="td_middle">Introduction to the calculus of variations</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Epstein, C. L. </td>
+                <td class="td_middle">Introduction to the mathematics of medical imaging</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Chartrand, G.   </td>
+                <td class="td_middle">Introductory graph theory</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Muracchini, L. </td>
+                <td class="td_middle">Introduzione alla teoria dei grafi</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Heat, O. V. </td>
+                <td class="td_middle">Investigation by experiment</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Ramírez Galarza, A. I. & Sierna Torea, G.  </td>
+                <td class="td_middle">Invitación a las geometrías no euclideanas</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">León López, E. </td>
+                <td class="td_middle">James Clerk Maxwell</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Barnard, S. & Child, J. M.  </td>
+                <td class="td_middle">Key to a new algebra</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Barnard, S. & Child, J. M.  </td>
+                <td class="td_middle">Key to a new algebra</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Ghrist, R. W., Holmes, P. J. & Sullivan, M. C.  </td>
+                <td class="td_middle">Knots and links in three-dimensional flows</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Farmer, D. W. & Stanford, T. B. </td>
+                <td class="td_middle">Knots and Surfaces: A guide to discovering mathematics</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Weisskopf, V. F. </td>
+                <td class="td_middle">Knowledge and wonder</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Boucheny, G., Guérinet, A. </td>
+                <td class="td_middle">L´Algebré</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">García, L., et al (coordinadores) </td>
+                <td class="td_middle">La física biológica en México: Temas selectos</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Domínguez Álvarez, H. A., et al</td>
+                <td class="td_middle">La formación de físicos en México y su campo de trabajo</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Flores Valdés, J. </td>
+                <td class="td_middle">La Gran ilusión, los cuarks</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Haber Schaim, U. & Dodge, J. H. </td>
+                <td class="td_middle">Laboratory guide for physics</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Friedberg, S. H., Insel, A. J. & Spence, L. E. </td>
+                <td class="td_middle">Linear algebra</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Hadley, G. </td>
+                <td class="td_middle">Linear algebra</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Polack Jonhson, B. & Bórchardt, A. F. </td>
+                <td class="td_middle">Mathematical connections: A modeling approach to bussines calculus and finite mathematics</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Polack Jonhson, B. & Bórchardt, A. F. </td>
+                <td class="td_middle">Mathematical connections: A modeling approach to bussines calculus and finite mathematics</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Pakes, A. G. & Maller, R.A. </td>
+                <td class="td_middle">Mathematical ecology of plant species competition:a class of binary mixtures of plant genotypes</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Khinchin, A. I. </td>
+                <td class="td_middle">Mathematical foundations of information theory</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Khinchin, A. I. </td>
+                <td class="td_middle">Mathematical foundations of information theory</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Cramer, H. </td>
+                <td class="td_middle">Mathematical methods of statistics</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Cumberbatch, E. & Fitf, A (eds) </td>
+                <td class="td_middle">Mathematical modeling case studies from industry</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Cherrvault, Y. </td>
+                <td class="td_middle">Mathematical modeling in biomedicine</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Frauenthal, J. C. </td>
+                <td class="td_middle">Mathematical modeling in epidemiology</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Sigmon, K & Davis, T. A. </td>
+                <td class="td_middle">MatLab Primer </td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Protter, M. H. & Weinberger, H. F. </td>
+                <td class="td_middle">>Maximum principles in differential equations</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Wheeden, R. L. & Zygmund </td>
+                <td class="td_middle">Measure and integral: An introduction to real analysis</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Yépez Mulia, E. & Yépez Martínez, M. </td>
+                <td class="td_middle">Mecánica analítica</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Herberlein, V. </td>
+                <td class="td_middle">Mecánica de los cuerpos deformables</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Jiménez Zamudio, J. J. & López García, J. </td>
+                <td class="td_middle">Métodos analíticos para ecuaciones diferenciales ordinarias</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Fernández, J. D., Saavedra, P & Velasco, R. M. </td>
+                <td class="td_middle">Modelación matemática de flujo vehicular</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Robinson, W. A. </td>
+                <td class="td_middle">Modeling Dynamic climate systems</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Adler, F. R. </td>
+                <td class="td_middle">Modeling the dynamics of life: Calculus and probability for life scientists</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Adler, F. R. </td>
+                <td class="td_middle">Modeling the dynamics of life: Calculus and probability for life scientists</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Reyes Mora, S. & Santiago Santos, A. (eds) </td>
+                <td class="td_middle">Modelos matemáticos en biología , ciencias sociales e ingeniería</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Wooton, W., Bekenbach, E. F. & Fleming, F. J. </td>
+                <td class="td_middle">Modern analytic geometry</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Gray, A. </td>
+                <td class="td_middle">Modern differential geometry of curves and surfaces</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Bojdecki, T. </td>
+                <td class="td_middle">Monografías del instituto de matemáticas: Teoría general de procesos e integración estocástica.</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Shiner, H. N. </td>
+                <td class="td_middle">Nonlinear Hydrodynamic Modeling: A mathematical Introduction</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Cárdenas, S. </td>
+                <td class="td_middle">Notas de geometría</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Cárdenas, S. </td>
+                <td class="td_middle">Notas de geometría</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Fritz, J. </td>
+                <td class="td_middle">Partial differential equations </td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Fritz, J., Bers, L. & Schechter, M.</td>
+                <td class="td_middle">Partial differential equations </td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Evans, L. C.</td>
+                <td class="td_middle">Partial differential equations </td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Weinberger, H. F.  </td>
+                <td class="td_middle">A First Course in Partial differential equations  with complex variables and transform methods</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Myint-U, T. </td>
+                <td class="td_middle">Partial differential equations of mathematical physics</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Myint-U, T. </td>
+                <td class="td_middle">Partial differential equations of mathematical physics</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Nishizeki, T. & Chiba, N. </td>
+                <td class="td_middle">Planar graphs: Theory and algorithms</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Becerril Fonseca, R. </td>
+                <td class="td_middle">Precálculo</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Rockswold G. K., Hornsby, J. & Lial, M. L. </td>
+                <td class="td_middle">Precalculus through modeling and visualization</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Wiltzing, L. & Greenstreet, R. </td>
+                <td class="td_middle">Presenting Statistics</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Wiltzing, L. & Greenstreet, R. </td>
+                <td class="td_middle">Presenting Statistics</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Brewer, R. </td>
+                <td class="td_middle">Principles of Ecology</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Hadley, G. </td>
+                <td class="td_middle">Probabilidad y estadística: Una introducción a la teoría de la decisión</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Faddeev, D. K. & Sominskii, I. S. </td>
+                <td class="td_middle">Problems in higher algebra</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Faddeev, D. K. & Sominskii, I. S. </td>
+                <td class="td_middle">Problems in higher algebra</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Day Jr., R. A. & Underwood, A. L. </td>
+                <td class="td_middle">Química analítica cuantitativa</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Duffy &  Garuño, G. </td>
+                <td class="td_middle">Química inorgánica general</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Pine, S. H., Hendrickson, J. B. & Cram, D. J. </td>
+                <td class="td_middle">Química orgánica</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Krantz, S. G. </td>
+                <td class="td_middle">Real analysis and fundations</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Gallot, S., Hulin, D. & Lafontaine, J. </td>
+                <td class="td_middle">Riemannian geometry</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Kolassa, J. E. </td>
+                <td class="td_middle">Series approximation methods in statistics</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Bedford, E., et al. (eds)</td>
+                <td class="td_middle">Several complex variables and complex geometry</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Vitushkin, A. G.</td>
+                <td class="td_middle">Several complex variables I</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Schwartz, M. & Shaw, L. </td>
+                <td class="td_middle">Signal processing</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Gelover-Santiago, A. L.  </td>
+                <td class="td_middle">Simulación del modelo de ising con el método de Monte Carlo</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">King Dávalos, J. E. & Méndez Lango, H. </td>
+                <td class="td_middle">Sistemas dinámicos discretos</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">King Dávalos, J. E. & Méndez Lango, H. </td>
+                <td class="td_middle">Sistemas dinámicos discretos</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Feynman, R. P. </td>
+                <td class="td_middle">Six not-so-easy pieces:  Einstein’s relativity, symmetry and space-time</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Friedman, R. & Morgan, J. W. </td>
+                <td class="td_middle">Smooth four-manifolds and complex surfaces</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Martinel Benito, J. & García Barreto, J. A. </td>
+                <td class="td_middle">Solución de problemas de teoría electromagnética</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Mach, E. </td>
+                <td class="td_middle">Space and geometry</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Craplet, C. </td>
+                <td class="td_middle">Statistique appliquée a la biologie</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Bautista, F., et al. (eds) </td>
+                <td class="td_middle">Técnicas de muestreo para manejadores de recursos naturales</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Amor Montaño, J. A. </td>
+                <td class="td_middle">Teoría de conjuntos para estudiantes de ciencias</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Campero Arena, G. & Miranda Perea, F. E. </td>
+                <td class="td_middle">Teoría de conjuntos. Curso intermedio</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Grabinsky, G. </td>
+                <td class="td_middle">Teoría de la medida</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Martínez Negrete, M. A. </td>
+                <td class="td_middle">Termodinámica</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Hörmander, L. </td>
+                <td class="td_middle">The analysis of linear partial Differential Operators I</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Bailey, N. </td>
+                <td class="td_middle">The mathematical approach to biology and medicine</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">O’Shea, D. </td>
+                <td class="td_middle">The poincaré conjecture</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Krantz, S. G. </td>
+                <td class="td_middle">The proofis in the pudding</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Jiménez Pozo, M. A., Bustamante González, J. & Djurdjevie, S. </td>
+                <td class="td_middle">Tópicos de la teoría de aproximación III</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Morales Luna, G. </td>
+                <td class="td_middle">Topología de conjuntos: un enfoque debido a  O. A. Biberstein</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Morales Luna, G. </td>
+                <td class="td_middle">Topología de conjuntos: un enfoque debido a  O. A. Biberstein</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Angoa, J., Arrazola, J. & Escobedo, R. (eds) </td>
+                <td class="td_middle">Topología y sus aplicaciones 1</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Angoa, J., Arrazola, J. & Escobedo, R. (eds) </td>
+                <td class="td_middle">Topología y sus aplicaciones 2</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Angoa, J., Arrazola, J. & Escobedo, R. (eds) </td>
+                <td class="td_middle">Topología y sus aplicaciones 2</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Angoa, J., Arrazola, J. & Escobedo, R. (eds) </td>
+                <td class="td_middle">Topología y sus aplicaciones 2</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Angoa, J., Arrazola, J. & Escobedo, R. (eds) </td>
+                <td class="td_middle">Topología y sus aplicaciones 2</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Angoa, J., Arrazola, J. & Escobedo, R. (eds) </td>
+                <td class="td_middle">Topología y sus aplicaciones 3</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Angoa, J., Arrazola, J. & Escobedo, R. (eds) </td>
+                <td class="td_middle">Topología y sus aplicaciones 3</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Angoa, J., Arrazola, J. & Escobedo, R. (eds) </td>
+                <td class="td_middle">Topología y sus aplicaciones 3</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Angoa, J., Arrazola, J. & Escobedo, R. (eds) </td>
+                <td class="td_middle">Topología y sus aplicaciones 4</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Angoa, J., Arrazola, J. & Escobedo, R. (eds) </td>
+                <td class="td_middle">Topología y sus aplicaciones 5</td>
+                <td class="td_left">Si</td>
+            </tr>
+
+            </tr>
+            <tr>
+                <td class="td_left">Stanislav, J. F. </td>
+                <td class="td_middle">Transport phenomena: Mathematical modeling of processes</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Wegert, E. </td>
+                <td class="td_middle">Visual complex Analysis</td>
+                <td class="td_left">Si</td>
+            </tr>
+            <tr>
+                <td class="td_left">Needhan, T </td>
+                <td class="td_middle">Visual complex Funtions</td>
+                <td class="td_left">Si</td>
+            </tr>
+        </table>
+        <p>De igual forma en el laboratorio de matemáticas se 
+            encuentran los siguientes libros correspondientes a 
+            diferentes géneros literarios. Dichos ejemplares fueron donados
+        por el M.C. Mario Lomeli Haro.</p>
+
+    </div>    
+            <table>
+                <thead>
+                    <tr>
+                        <th>Título</th>
+                        <th>Autor</th>
+                        <th>Disponible</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1984</td>
+                        <td>George Orwell</td>
+                        <td style="text-align:center">SI</td>
+                    </tr> 
+                    <tr>
+                        <td>Alicia a través del espejo</td>
+                        <td>Lewis Carroll</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>An Old Fashioned Girl</td>
+                        <td>Louisa May Alcott</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>Carta al padre</td>
+                        <td>Franz Kafka</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>Carta breve para un largo adiós</td>
+                        <td>Peter Handke</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>100 años de soledad</td>
+                        <td>Gabriel García Márquez</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>Cinco cerditos</td>
+                        <td>Agatha Christie</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>Cumbres Borrascosas</td>
+                        <td>Emily Brontë</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>El existencialismo es un humanismo</td>
+                        <td>Jean Paul Sartre</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>El horror secreto y otros cuentos</td>
+                        <td>H.P. Lovecraft</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>El libro de los amores ridículos</td>
+                        <td>Milan Kundera</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>El Origen De La Vida </td>
+                        <td>Alexander Oparin</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>El paraiso perdido</td>
+                        <td>John Milton</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>El principe idiota</td>
+                        <td>Fedor M. Dostoievski</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>El señor de las moscas</td>
+                        <td>William Golding</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>El siglo de las luces</td>
+                        <td>Alejo Carpentier</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>El zorro</td>
+                        <td>Isabel Allende</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>Ensayo sobre la lucidez</td>
+                        <td>José Saramago</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>Frankenstein</td>
+                        <td>Mary W. Shelley</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>Guerra mundial Z</td>
+                        <td>Max Brooks</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>Historias de Cronopios y de Famas</td>
+                        <td>Julio Cortázar</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>Historias de fantasmas</td>
+                        <td>CHARLES DICKENS</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>La cabellera y otros cuentos de terror</td>
+                        <td>Guy de Maupassant</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>La peste</td>
+                        <td>Albert Camus</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>Las crónicas de Narnia: el león, la bruja y el ropero</td>
+                        <td>C.S. Lewis</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>Las flores del mal</td>
+                        <td>Charles Baudelaire</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>Los cazadores de microbios</td>
+                        <td>Paul de Kruif</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>Los sufrimientos del joven Werther</td>
+                        <td>Johann Wolfgang Goethe</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>Niebla</td>
+                        <td>Miguel de Unamuno</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>ORLANDO</td>
+                        <td>Virginia Woolf</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>Rebelión en la granja</td>
+                        <td>George Orwell</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>Un mundo feliz</td>
+                        <td>Aldous Huxley</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>
+                    <tr>
+                        <td>Utopia</td>
+                        <td>Tomás Moro</td>
+                        <td style="text-align:center">SI</td>
+                    </tr>   
+                </tbody>
+            </table>
+
+    
+    <br>
+    <br>
+    <!---------------------------------------------->
+    <!--========== FOOTER ============-->
+    <footer> 
+        <div class="contenedor">
+            <div class="item item1"> <img class="img-logo" src="./assets/img/logo-utm.png" alt="logo utm"></div>
+            <div class="item item2"> <img class="img-logo" src="./assets/img/LMA-Logo.png" alt="logo carrera"></div>
+            <div class="item item3"> <img class="img-logo" src="./assets/img/logoDivulgación.png" alt="logo divulgacion"></div>
+        </div> <br>
+        <p>Derechos reservados &copy; 2023 Universidad Tecnológica de la Mixteca</p>
+    </footer>
+
+    <!--========== END FOOTER ============-->
+
+
+    <!--========== Para que no desaparezca la barra ============-->
+
+                <!-- Bootstrap v4.0.0 -->
+                <script src="assets/js/vendor/bootstrap/bootstrap.min.js"></script>
+
+                <!-- Animate Plus -->
+                <script src="assets/js/vendor/animate-plus/animate-plus.min.js"></script>
+
+                <!-- ScrollIt -->
+                <script src="assets/js/vendor/scrollIt/scrollIt.min.js"></script>
+
+                <!-- ScrollReveal 3.3.6 -->
+                <script src="assets/js/vendor/scrollreveal/scrollreveal.min.js"></script>
+
+                <!-- Slick Slide -->
+                <script type="text/javascript"
+                    src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+
+                <!-- Custom Styles -->
+                <script src="assets/js/main.js"></script>
+
+
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+                <script type='text/javascript' src='assets/js/mainB.js'></script>
+</body>
+
+</html>

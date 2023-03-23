@@ -1,0 +1,152 @@
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+h1{
+    margin-top: 50px;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+}
+
+.linea{
+    background: #550b51;
+    height: 5px;
+    width: 100%;
+    display: block;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    width: 95%;
+    margin: auto;
+    grid-gap: 10px ;
+    padding: 40px;
+    overflow: hidden;
+
+}
+
+.galeria > a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+
+
+
+
+.galeria img{
+    width: 100%;
+    vertical-align: top;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+/*el filtro distorsiona la imagen al pasar el mouse sobre la imagen*/
+.galeria a:hover img{
+filter: blur(2px);
+transform: rotate(10deg) scale(1.3);
+}
+
+
+/*acciones que se hacen al darle click sobre una imagen*/
+.light-box{
+    position: fixed;
+    top: 40px;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    transition: transform .3s ease-in-out;
+    width: 100%;
+    height: auto;
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+
+.light-box img{
+    max-width: 200vw;
+    max-height: 100vh;
+}
+
+.light-box:target{
+    transform: scale(.8);
+}
+/*se crean las acciones al lanzar el disparador X*/
+.close{
+   display: block;
+   position: absolute;
+   top: 20px;
+   right: 40px;
+   background: black;
+   color: #fff;
+   text-decoration: none;
+   width: 40px;
+   height: 40px;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 50%;
+}
+
+.next{
+    display: block;
+    background: black;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+  
+
+}
+
+/*para lo responsivo*/
+@media only screen and (min-width:300px){
+    .galeria{
+        display: flex;
+        grid-template-columns: repeat(auto-fit, minmax(150px, ifr) );
+
+        flex-direction: column;
+    }
+    .close{
+        top: 20px;
+        right: 20px;
+
+    }
+    .light-box img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width:420px){
+    .light-box img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .light-box img{
+        width: 600px;
+        height: 100vh;
+    }
+    .galeria{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        width: 95%;
+        margin: auto;
+        grid-gap: 10px ;
+        padding: 40px;
+        overflow: hidden;
+    
+    }
+}

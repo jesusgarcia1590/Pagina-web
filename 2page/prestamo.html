@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestamo de libros</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/icon">
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap v4.0.0 -->
+    <link href="assets/css/vendor/bootstrap/bootstrap.css" rel="stylesheet">
+    <!-- Animate Plus -->
+    <link href="assets/css/vendor/animate-plus/animate.css" rel="stylesheet">
+    <!-- Font Awesome 4.7.0 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <!-- Custom Styles -->
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <link href="assets/css/estilos-personales.css" rel="stylesheet">
+    <link href="assets/css/investigacion.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/prestamo.css">
+    <link rel="stylesheet" href="assets/css/cabecera.css">
+</head>
+<body>
+
+    <!--==========HEADER===========-->
+    <header >
+        <div class="cabecera">
+            <img src="./assets/img/circUTM.png" alt="Logo de la UTM" class="cabecera_img">
+            <h2 class="cabecera_txt">Universidad Tecnológica de la Mixteca</h2>
+        </div>
+    </header>
+
+    <!--========== HOME SECTION ============-->
+    <section class="section home" id="home" >
+        <div class="container-fluid">
+            <!--Aquí es donde se edita el boton-->
+            <nav class="navbar navbar-expand-lg navbar-light" id="header-menu">
+                <button class="navbar-toggler" name="navbarButton" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto" id="navbar-menu">
+                        <li class="nav-item" >
+                            <!-- Aqui se crean los vinculos a la derecha-->
+                            <a class="nav-link" href="index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            
+                            <a class="nav-link" href="recursos.html">RECURSOS</a>
+                        </li>
+                        <li class="nav-item">
+                            
+                            <a class="nav-link" href="prestamo.html">PRESTAMO</a>
+                        </li>
+                        <li class="nav-item">
+                           
+                            <a class="nav-link" href="galeria.html">GALERÍA</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="home-content d-flex">
+                <div class="welcome-msg animate-plus" data-animations="fadeInLeft">
+                    <h2 class="ft-bold">Licenciatura en Matemáticas Aplicadas</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--========== END HOME SECTION ============-->
+
+
+        <main>
+            <!--
+            <div class="en_construccion">
+                <img src="./assets/img/seccion-en-construccion.png" alt="Página en construcción" >
+            </div>
+            -->
+            <form action="procesar_reserva.php" method="POST"> 
+                <label for="nombre" >Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br><br>
+                
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido"><br><br>
+                
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email"><br><br>
+                
+                <label for="libro">Libro:</label>
+                <input type="text" id="libro" name="libro"><br><br>
+                
+                <label for="fecha">Fecha de reserva:</label>
+                <input type="date" id="fecha" name="fecha"><br><br>
+                
+                <input type="submit" value="Reservar">
+              </form>
+
+
+
+              
+              
+        </main>
+
+        <footer> 
+            <div class="contenedor">
+                <div class="item item1"> <img class="img-logo" src="./assets/img/logo-utm.png" alt="logo utm"></div>
+                <div class="item item2"> <img class="img-logo" src="./assets/img/LMA-Logo.png" alt="logo carrera"></div>
+                <div class="item item3"> <img class="img-logo" src="./assets/img/logoDivulgación.png" alt="logo divulgacion"></div>
+            </div> <br>
+            <p>Derechos reservados &copy; 2023 Universidad Tecnológica de la Mixteca</p>
+        </footer>
+
+
+
+        <script  src="./assets/js/prestamo.js" type="module"></script>
+</body>
+</html>
