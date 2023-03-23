@@ -1,8 +1,10 @@
+
+<?
 // Configuración de la conexión a la base de datos
 $servername = "localhost";
-$username = "tu_usuario";
-$password = "tu_contraseña";
-$dbname = "tu_base_de_datos";
+$username = "root";
+$password = "Koforever23.";
+$dbname = "Reservar";
 
 // Crea la conexión a la base de datos
 $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -29,7 +31,7 @@ $libro = mysqli_real_escape_string($conn, $libro);
 $fecha = mysqli_real_escape_string($conn, $fecha);
 
 // Crea la consulta SQL para insertar los datos en la tabla "reservas"
-$sql = "INSERT INTO reservas (nombre, apellido, email, libro, fecha)
+$sql = "INSERT INTO alumnos (nombre, apellido, email, libro, fecha)
         VALUES ('$nombre', '$apellido', '$email', '$libro', '$fecha')";
 
 // Ejecuta la consulta SQL y verifica si fue exitosa
@@ -38,3 +40,8 @@ if (mysqli_query($conn, $sql)) {
 } else {
   echo "Error al realizar la reserva: " . mysqli_error($conn);
 }
+
+// Cerrar la conexión
+mysqli_close($conn);
+
+?>
