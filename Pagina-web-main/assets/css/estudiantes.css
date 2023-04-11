@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+
+
+.container-body{
+    margin-top: -50px;
+}
+
+
+
+/*Estilo para la tabla*/
+table,tr,td,th
+{
+  
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    padding-left: 1rem;
+}
+
+.tabla1{
+    width: 60%;
+   
+}
+
+
+.tabla2{
+    width: 70%;
+}
+
+.tabla3{
+    width: auto;
+    position: relative;
+}
+
+
+th
+{  
+   padding-left: 1rem;
+    height: 2.5em;
+    background-color: rgb(189, 189, 189);
+}
+tr
+{
+    height: 1.5em;
+}
+.tr_H
+{
+    height: 6em;
+}
+
+
+.td_right a{
+    text-align: center;
+   align-items: center;
+}
+
+.td_right >a{
+    color: blue;
+}
+.td_right a:hover{
+    color: maroon;
+}
+
+.td_centro{
+    font-weight: lighter;
+    padding: 5px;
+}
+
+
+#g2009{
+    position: relative;
+}
+
+@media only screen and (max-width: 425px){
+    table{
+        scale: 0.9;
+        margin-left: 1px;
+    }
+    .tabla1{
+        position: relative;
+        margin-left: 60px;
+        
+    }
+    .card .card-body{
+        padding-left: 2px;
+    }
+
+
+    .card .card-body .tabla2{
+        scale: 0.8;
+    }
+    
+    footer{
+        height: auto;
+    display: flex;
+    flex-direction: column;        
+    }
+
+    .container-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #g2009{
+        margin-left: -50px;
+    }
+}
+
+@media only screen and(max-width: 724px){
+    footer{
+    display: flex;
+    flex-direction: column;  
+    height: auto;      
+    }
+
+    .container-body {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+}

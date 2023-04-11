@@ -1,0 +1,80 @@
+.labi{
+    font-size: large;
+     text-align: justify;
+     margin: 10px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover{
+    color: slategrey;
+    text-decoration: underline;
+}
+
+.utensilios{
+    width: 100%;
+    float: initial;
+    margin: 0 20px 20px 0;
+}
+
+#lab-tit{
+    color: cornflowerblue;
+    margin-bottom: 50px;
+    font-size: x-large;
+}
+
+#enc-rec{
+    color: blue;
+    justify-content: center;
+}
+
+#im-lab1{
+    width: 70%;
+    float: left;
+    margin: 10px 10px 0 0;
+}
+#im-lab2{
+    width: 70%;
+    float: right;
+    margin: 10px 0 10px 20px;
+}
+.lista-diferenciales{
+    width: 40%;  
+    display: inline-block; 
+    vertical-align: top; 
+    }
+    
+    .ite{
+        line-height: 1.5;
+    }
+    
+    /*Aqui le decimos que antes de los items coloque la estrellita*/
+    .ite::before{
+        content: "✭";
+     }
+    
+    /*A la clase items le dice que solo afecte al primero de sus elementos*/
+     .ite:first-child{
+        font-weight: bold;
+     }
+     
+     /*Creamos una clase que contendrá a las 2 imagenes a mostrar*/
+     .contenedor-imagenes {
+        display: flex;
+        float: left;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 20px;
+       
+      }
+      
+      .contenedor-imagenes img{
+        padding: 1em;
+        border-style: solid;
+        border-color: #000000;
+      }
