@@ -15,6 +15,7 @@ body{
 table,tr,td,th
 {
   
+    background-color: lightslategrey;
     border: 1px solid black;
     border-collapse: collapse;
     text-align: left;
@@ -24,29 +25,17 @@ table,tr,td,th
     margin-bottom: 1rem;
     justify-content: space-between;
     padding-left: 1rem;
+    font-size: larger;
 }
 
-.tabla1{
-    width: 60%;
-   
-}
-
-
-.tabla2{
-    width: 70%;
-}
-
-.tabla3{
-    width: auto;
-    position: relative;
-}
 
 
 th
 {  
    padding-left: 1rem;
     height: 2.5em;
-    background-color: rgb(189, 189, 189);
+    background-color: black;
+    color: white;
 }
 tr
 {
@@ -81,10 +70,16 @@ tr
 }
 
 @media only screen and (max-width: 425px){
-    table{
-        scale: 0.9;
-        margin-left: 1px;
-    }
+
+    table,tr,td,th
+{
+
+    scale: 0.9;
+    font-size: smaller;
+}
+
+
+
     .tabla1{
         position: relative;
         margin-left: 60px;
