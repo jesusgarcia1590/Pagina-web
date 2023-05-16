@@ -16,7 +16,7 @@ table,tr,td,th
 {
   
     background-color: lightslategrey;
-    border: 1px solid black;
+    border: 2px solid white;
     border-collapse: collapse;
     text-align: left;
     vertical-align: middle;

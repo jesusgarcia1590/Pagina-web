@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-MEX">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,13 +29,16 @@
 <body>
 
     <!--==========HEADER===========-->
-    <header >
-        <div class="cabecera">
-            <img src="./assets/img/circUTM.png" alt="Logo de la UTM" class="cabecera_img">
-            <h2 class="cabecera_txt">Universidad Tecnológica de la Mixteca</h2>
-        </div>
-    </header>
-
+    <header class="cabecera">
+		<img src="./assets/img/circUTM.png" alt="logo utm" class="img-header">
+		<img src="./assets/img/logo-carrera.png" alt="logo mate" class="img-header">
+		<img src="./assets/img/logo-divulgacion.png" alt="logo divulgación" class="img-header">
+		<div style="color:azure; text-align: center;">
+			<h1>Universidad Tecnol&oacute;gica de la Mixteca</h1>
+			<br>
+			<h3>Instituto de F&iacute;sica y Matem&aacute;ticas</h3>
+		</div>
+	</header>
     <!--========== HOME SECTION ============-->
     <section class="section home" id="home" >
         <div class="container-fluid">
@@ -87,16 +90,16 @@
             -->
             <form action="./assets/php/procesar_reserva.php" method="POST"> 
                 <label for="nombre" >Nombre:</label>
-                <input type="text" id="nombre" name="nombre"><br><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
                 
                 <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" name="apellido"><br><br>
+                <input type="text" id="apellido" name="apellido" required><br><br>
                 
                 <label for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email"><br><br>
+                <input type="email" id="email" name="email" required><br><br>
                 
                 <label for="libro">Libro:</label>
-                <input type="text" id="libro" name="libro"><br><br>
+                <input type="text" id="libro" name="libro" required><br><br>
                 
                 <label for="fecha">Fecha de reserva:</label>
                 <input type="date" id="fecha" name="fecha"><br><br>
